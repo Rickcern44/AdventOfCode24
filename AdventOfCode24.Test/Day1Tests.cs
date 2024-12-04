@@ -10,7 +10,7 @@ public class Day1Tests
     {
         var dayOne =
             new Day1(
-                "C:\\Users\\cerny\\dev_projects\\AdventOfCode24\\AdventOfCode24.Test\\TestFiles\\DayOneTestFile.txt");
+                "C:\\Users\\cerny\\dev_projects\\AdventOfCode24\\AdventOfCode24.Test\\TestFiles\\Day1.txt");
 
         dayOne.ListOne[0].Should().Be("12");
         dayOne.ListTwo[0].Should().Be("45");
@@ -23,7 +23,7 @@ public class Day1Tests
     {
         var dayOne =
             new Day1(
-                "C:\\Users\\cerny\\dev_projects\\AdventOfCode24\\AdventOfCode24.Test\\TestFiles\\DayOneTestFile.txt");
+                "C:\\Users\\cerny\\dev_projects\\AdventOfCode24\\AdventOfCode24.Test\\TestFiles\\Day1.txt");
 
         dayOne.LocationSets[0].LocationOne.Should().Be("12");
         dayOne.LocationSets[0].LocationTwo.Should().Be("45");
@@ -41,7 +41,7 @@ public class Day1Tests
     {
         var dayOne =
             new Day1(
-                "C:\\Users\\cerny\\dev_projects\\AdventOfCode24\\AdventOfCode24.Test\\TestFiles\\DayOneTestFile.txt");
+                "C:\\Users\\cerny\\dev_projects\\AdventOfCode24\\AdventOfCode24.Test\\TestFiles\\Day1.txt");
 
         var solution = dayOne.SolvePartOne();
         solution.Should().Be(102);

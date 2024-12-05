@@ -3,7 +3,7 @@
 Console.WriteLine("Advent of Code24");
 Console.WriteLine("-------------------------------------");
 
-var input = @"C:\Users\cerny\dev_projects\AdventOfCode24\AdventOfCode24\Input\Day4.txt";
+var input = @"Input\Day4.txt";
 
 // var dayOne = new DayOne(@"C:\Users\cerny\dev_projects\AdventOfCode24\AdventOfCode24\Input\DayOne.txt");
 // Console.WriteLine($"Part One: {dayOne.SolvePartOne()}");
@@ -17,4 +17,6 @@ var input = @"C:\Users\cerny\dev_projects\AdventOfCode24\AdventOfCode24\Input\Da
 // Console.WriteLine($"Part One: {dayThree.SolvePartOne()}");
 // Console.WriteLine("-------------------------------------");
 
-var dayFour = new Day4(input);
+var dayFour = new Day4();
+
+Console.WriteLine("-------------------------------------");

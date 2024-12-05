@@ -8,9 +8,7 @@ public class Day1Tests
     [Fact]
     public void DayOne_SortsCorrectly()
     {
-        var dayOne =
-            new Day1(
-                "C:\\Users\\cerny\\dev_projects\\AdventOfCode24\\AdventOfCode24.Test\\TestFiles\\Day1.txt");
+        var dayOne = new Day1("TestFiles\\Day1.txt");
 
         dayOne.ListOne[0].Should().Be("12");
         dayOne.ListTwo[0].Should().Be("45");
@@ -21,9 +19,7 @@ public class Day1Tests
     [Fact]
     public void DayOne_CreatesLocationSets()
     {
-        var dayOne =
-            new Day1(
-                "C:\\Users\\cerny\\dev_projects\\AdventOfCode24\\AdventOfCode24.Test\\TestFiles\\Day1.txt");
+        var dayOne = new Day1("TestFiles\\Day1.txt");
 
         dayOne.LocationSets[0].LocationOne.Should().Be("12");
         dayOne.LocationSets[0].LocationTwo.Should().Be("45");
@@ -39,9 +35,7 @@ public class Day1Tests
     [Fact]
     public void DayOne_SolvesCorrectly()
     {
-        var dayOne =
-            new Day1(
-                "C:\\Users\\cerny\\dev_projects\\AdventOfCode24\\AdventOfCode24.Test\\TestFiles\\Day1.txt");
+        var dayOne = new Day1("TestFiles\\Day1.txt");
 
         var solution = dayOne.SolvePartOne();
         solution.Should().Be(102);

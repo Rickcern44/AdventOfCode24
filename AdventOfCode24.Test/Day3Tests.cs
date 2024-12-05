@@ -9,11 +9,10 @@ public class Day3Tests
     public void DayThreeTest()
     {
         var dayThree =
-            new Day3("C:\\Users\\cerny\\dev_projects\\AdventOfCode24\\AdventOfCode24.Test\\TestFiles\\Day3.txt");
+            new Day3("TestFiles\\Day3.txt");
 
         var answer = dayThree.SolvePartOne();
 
         answer.Should().Be(48);
-
     }
 }

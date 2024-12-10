@@ -17,6 +17,8 @@ var input = @"Input\Day4.txt";
 // Console.WriteLine($"Part One: {dayThree.SolvePartOne()}");
 // Console.WriteLine("-------------------------------------");
 
-var dayFour = new Day4();
+// var dayFour = new Day4();
+
+var dayFive = new Day5();
 
 Console.WriteLine("-------------------------------------");
